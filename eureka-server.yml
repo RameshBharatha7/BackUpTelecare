@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: eureka-server
-        image: param036/wednight_eureka-server:wednight_eureka-server
+        image: ramesh1796/telecare:eureka-server
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8761
