@@ -1,18 +1,23 @@
 # Capstone Project- TeleCare
 
-# Team-7
-_Sanku Lasya,
-G Ravi Kiran,
-Supreetha R,
-Bharatha Ramesh_
+
+**Team-7:**
+
+_Sanku Lasya_
+
+_G Ravi Kiran_
+
+_Supreetha R_
+
+_Bharatha Ramesh_
 
 **Project Statement:**
 Automated Deployment of TELECARE Application using the possible Devops Tools.
 
-Project Description:
+**Project Description:**
 Design and develop tasks required to build CICD pipeline using learned technologies to deploy TELECARE Application to cloud platform as a set of microservices on containerized platform such as docker and Kubernetes. Provision Infrastructure using terraform on aws, and configure same using Ansible.
 
-Tools:
+**Tools:**
 1.	Automate Provision of infrastructure using terraform on AWS cloud.
 2.	Automate Configuration of infrastructure using ansible scripts.
 3.	Use Version control system to hold source code.
