@@ -6,7 +6,7 @@ G Ravi Kiran,
 Supreetha R,
 Bharatha Ramesh_
 
-Project Statement:
+**Project Statement:**
 Automated Deployment of TELECARE Application using the possible Devops Tools.
 
 Project Description:
