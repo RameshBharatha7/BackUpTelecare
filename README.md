@@ -1,10 +1,10 @@
 # Capstone Project- TeleCare
 
 # Team-7
-*Sanku Lasya,
-*G Ravi Kiran,
-*Supreetha R,
-*Bharatha Ramesh
+_Sanku Lasya,
+G Ravi Kiran,
+Supreetha R,
+Bharatha Ramesh_
 
 Project Statement:
 Automated Deployment of TELECARE Application using the possible Devops Tools.
