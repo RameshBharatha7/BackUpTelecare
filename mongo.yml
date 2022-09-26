@@ -32,8 +32,8 @@ spec:
     spec:
      # terminationGracePeriodSeconds: 10
       containers:
-      - name: mongo
-        image: param036/mongo:mongo
+      - name: mongo-container
+        image: ramesh1796/mongo:mongo
         
         ports:
         - containerPort: 27017
