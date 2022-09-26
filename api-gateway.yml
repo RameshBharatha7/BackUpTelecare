@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: param036/wednight_api-gateway:wednight_api-gateway
+          image: ramesh1796/maven-telecare-api-gateway:api-gateway
           ports:
             - containerPort: 8080
           env:
