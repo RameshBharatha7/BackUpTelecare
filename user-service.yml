@@ -9,7 +9,7 @@ spec:
   ports:
   - port: 8090
     protocol: TCP
-    targetPort: 8090
+    targetPort: 9090
   selector:
     app: user-service
   type: ClusterIP
@@ -34,13 +34,8 @@ spec:
     spec:
       containers:
       - name: user-service
-        image: param036/wednight_user-service:wednight_user-service
+        image: ramesh1796/telecare:user-service
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 8090
-        env:
-        - name: servername_eureka
-          value: "eureka-server"
-        - name: servername_mongodb
-          value: "mongodb"
+        - containerPort: 9090
 ...
