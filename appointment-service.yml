@@ -3,15 +3,15 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: interviewer-service
-  name: interviewer-service
+    app: appointment-service
+  name: appointment-service
 spec:
   ports:
   - port: 8097
     protocol: TCP
     targetPort: 8097
   selector:
-    app: interviewer-service
+    app: appointment-service
   type: ClusterIP
 ...
 
@@ -19,26 +19,24 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: interviewer-service
+  name: appointment-service
   labels:
-    app: interviewer-service
+    app: appointment-service
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: interviewer-service
+      app: appointment-service
   template:
     metadata:
       labels:
-        app: interviewer-service
+        app: appointment-service
     spec:
       containers:
-      - name: interviewer-service
-        image: param036/wednight_interviewer-service:wednight_interviewer-service
+      - name: appointment-service
+        image: ramesh1796/telecare:appointment-service
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8097
-        env:
-        - name: servername_eureka
-          value: "eureka-server"
+        
 ...
