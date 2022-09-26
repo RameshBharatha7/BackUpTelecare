@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: chat-service
-        image: ramesh1796/maven-telecare-chat-service:chat-service
+        image: ramesh1796/telecare:chat-service
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8070
