@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: email-service
-        image: param036/wednight_email-service:wednight_email-service
+        image: ramesh1796/telecare:email-service
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8075
