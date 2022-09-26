@@ -33,14 +33,10 @@ spec:
         app: authentication-service
     spec:
       containers:
-      - name: user-service
-        image: param036/wednight_authentication-service:wednight_authentication-service
+      - name: authentication-service
+        image: ramesh1796/telecare:authentication-service
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8095
-        env:
-        - name: servername_eureka
-          value: "eureka-server"
-        - name: servername_db
-          value: "mysql"
+        
 ...
