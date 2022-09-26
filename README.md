@@ -1,5 +1,10 @@
-# Telecare-Capstone
-Capstone Project Team-7
+# Capstone Project- TeleCare
+
+# Team-7
+*Sanku Lasya,
+*G Ravi Kiran,
+*Supreetha R,
+*Bharatha Ramesh
 
 Project Statement:
 Automated Deployment of TELECARE Application using the possible Devops Tools.
@@ -15,8 +20,4 @@ Tools:
 5.	Integrate CICD pipeline using Jenkins to deploy microservices on Kubernetes.
 6.	Map frontend microservices endpoint to domain name.
 
-Team:
-Sanku Lasya,
-G Ravi Kiran,
-Supreetha R,
-Bharatha Ramesh
+
